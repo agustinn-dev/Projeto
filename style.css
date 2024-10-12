@@ -1,0 +1,106 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0; 
+    padding: 0;
+}
+
+.agro-up{
+    width: 100px;
+    height: auto;
+    padding-right: 45px;
+}
+
+nav{
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    background-color: rgb(41, 110, 33);
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    
+}
+
+a{
+    padding-right: 45px;
+    text-decoration: none;
+    color: white; 
+}
+
+.hover:hover{
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.login {
+    margin-left: auto;
+    border: solid;
+    border-radius: 400px;
+    border-color: rgb(183, 255, 0);
+    background-color: rgba(91, 152, 21, 0.415);
+    padding: 10px;
+    text-decoration: none;
+
+}
+.login:hover{
+    font-size: 24px;
+    line-height: 24px;
+}
+
+#apresentacao{
+    background-color: rgb(255, 255, 154);
+    padding: 257px;
+    font-family: "Raleway", sans-serif;
+    font-size: auto;
+    border: solid rgb(241, 241, 88);
+    border-radius: 10px;
+    text-align: justify;  
+}
+#objetivos{
+    background-color:rgb(105, 84, 23);
+    padding: 400px;
+    font-family: "Raleway", sans-serif;
+    border: solid rgb(241, 241, 88);
+    border-radius: 10px;
+    text-align: justify; 
+}
+#parceiros{
+    background-color: rgb(255, 255, 154);
+    padding: 400px;
+    font-family: "Raleway", sans-serif;
+    border: solid rgb(241, 241, 88);
+    border-radius: 10px;
+    text-align: justify; 
+}
+#quemsomos{
+    background-color: rgb(255, 255, 154);
+    padding: 400px;
+    font-family: "Raleway", sans-serif;
+    border: solid rgb(241, 241, 88);
+    border-radius: 10px;
+    text-align: justify; 
+
+}
+.logoemail{
+    width: 10px;
+    height: auto;
+    padding-right: 5px;
+}
+#contatos li{
+    font-family: "Raleway", sans-serif;
+
+}
+
+#contatos a{
+    color:rgb(0, 128, 255);
+    font-family: "Raleway", sans-serif;
+}
+
+
+
