@@ -8,7 +8,7 @@ body {
 }
 
 .agro-up{
-    width: 100px;
+    width: 200px;
     height: auto;
     padding-right: 45px;
 }
@@ -24,7 +24,6 @@ nav{
     position: fixed;
     width: 100%;
     z-index: 1000;
-    
 }
 
 a{
@@ -46,7 +45,6 @@ a{
     background-color: rgba(91, 152, 21, 0.415);
     padding: 10px;
     text-decoration: none;
-
 }
 .login:hover{
     font-size: 24px;
@@ -54,46 +52,54 @@ a{
 }
 
 #apresentacao{
-    background-color: rgb(255, 255, 154);
-    padding: 257px;
+    background-color: rgb(101, 186, 114);
+    padding: 267px;
     font-family: "Raleway", sans-serif;
-    font-size: auto;
-    border: solid rgb(241, 241, 88);
-    border-radius: 10px;
+    font-size: 20px;
+    border: solid rgb(11, 67, 28);
     text-align: justify;  
 }
 #objetivos{
-    background-color:rgb(105, 84, 23);
-    padding: 400px;
+    background-color:rgb(145, 121, 48);
+    padding: 267px;
     font-family: "Raleway", sans-serif;
-    border: solid rgb(241, 241, 88);
-    border-radius: 10px;
+    font-size: 20px;
+    border: solid rgb(11, 67, 28);
     text-align: justify; 
 }
 #parceiros{
-    background-color: rgb(255, 255, 154);
-    padding: 400px;
+    background-color: rgb(89, 190, 199);
     font-family: "Raleway", sans-serif;
-    border: solid rgb(241, 241, 88);
-    border-radius: 10px;
+    font-size: 20px;
+    border: solid rgb(11, 67, 28);
     text-align: justify; 
+    padding: 267px;
+}
+#parceiros img{
+    width: 241px;
 }
 #quemsomos{
-    background-color: rgb(255, 255, 154);
-    padding: 400px;
+    background-color: rgb(178, 255, 154);
+    padding: 267px;
     font-family: "Raleway", sans-serif;
-    border: solid rgb(241, 241, 88);
-    border-radius: 10px;
+    font-size: 20px;
+    border: solid rgb(11, 67, 28);
     text-align: justify; 
-
 }
-.logoemail{
-    width: 10px;
-    height: auto;
-    padding-right: 5px;
+#contatos{
+    padding: 100px;
+    font-family: "Raleway", sans-serif;
+    background-color: rgb(109, 225, 96);
+}
+
+#contatos h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    text-align: justify; 
 }
 #contatos li{
     font-family: "Raleway", sans-serif;
+    font-size: 20px;
 
 }
 
